@@ -15,9 +15,10 @@ function BranchPerformanceChart({ semester }) {
             try {
                 setLoading(true);
                 setError(null);
-                
+                // Use REACT_APP_API_URL from environment
+                const baseUrl = process.env.REACT_APP_API_URL || 'http://localhost:5000';
                 const response = await axios.get(
-                    `http://localhost:5000/api/branch-performance/${semester}`,
+                    `${baseUrl}/api/branch-performance/${semester}`,
                     {
                         timeout: 5000,
                         headers: {
