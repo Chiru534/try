@@ -7,6 +7,28 @@
   box-shadow: 0 4px 24px rgba(44, 62, 80, 0.08);
   text-align: center;
 }
+@media (max-width: 600px) {
+  .user-home-container {
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  h1 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px;
+  }
+}
 
 .user-home-container h1 {
   color: #2c3e50;

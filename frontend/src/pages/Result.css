@@ -6,6 +6,28 @@
   border: 1px solid #ddd;
   border-radius: 4px;
 }
+@media (max-width: 600px) {
+  .result-container {
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  h1 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .input-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .input-group input, .input-group button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px;
+  }
+}
 .result-container h1 {
   text-align: center;
   color: #333;

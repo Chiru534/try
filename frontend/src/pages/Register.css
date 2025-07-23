@@ -7,6 +7,34 @@
   box-shadow: 0 4px 24px rgba(44, 62, 80, 0.10);
   text-align: center;
 }
+@media (max-width: 600px) {
+  .register-container {
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .form-group input,
+  .register-container input[type="text"],
+  .register-container input[type="email"],
+  .register-container input[type="password"] {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .form-group label {
+    font-size: 1rem;
+  }
+  button,
+  .register-container button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px;
+  }
+  .success-message, .error-message {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
 
 .register-container h2 {
   color: #2c3e50;
